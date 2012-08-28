@@ -3,16 +3,16 @@ by Mike Hordecki
 ----------------
 
 vim_subword adds a new text object to your vim, namely a subword text object.
-
 A subword is either aPartOfACamelCasedWord, or_a_part_of_an_underscored_word.
 
-The symbol for the text object is - (dash). 
+The symbol for this text object is - (dash). 
 
 Usage
 -----
 
-If you don't know what text objects are, type `:h text-objects`. This
-module adds a new text object, -. You can use it with all of the regular
+If you don't know what text objects are, type `:h text-objects`.
+
+This module adds a new text object, -. You can use it with all of the regular
 text object commands, so `ci-`, `da-`, etc. should all work. There is some
 way to go to get 100% parity with builin text objects, though. See TODO
 section for details.
