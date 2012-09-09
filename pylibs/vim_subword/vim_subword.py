@@ -68,7 +68,7 @@ class VimWrapper(object):
     self.linepos = linepos
 
   def go_to_insert_mode(self):
-    self.vim.command('startinsert')
+    self.vim.command('startinsert!')
 
 
 def get_subword_text_object(vimw=None):
