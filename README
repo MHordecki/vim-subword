@@ -43,3 +43,5 @@ TODO
     + Motion actions
     + Other actions, such as v**
     + Support for C-R C-- in command-line mode.
+    + Proper undo
+    + Support for ALL_CAPS_UNDERSCORES
